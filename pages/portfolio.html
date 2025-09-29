@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Levi.art | Custom Charcoal & Graphite Portraits</title>
+    <meta name="description" content="Explore Levi.art's portfolio of custom charcoal and graphite portraits. Personal, couple, family, wedding, and memorial portraits that capture life's precious moments.">
+    <meta name="keywords" content="portrait gallery, charcoal portraits, graphite art, custom artwork, family portraits, wedding portraits">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Portfolio - Levi.art | Custom Portrait Gallery">
+    <meta property="og:description" content="Explore our collection of custom charcoal and graphite portraits">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://levi-mulama.github.io/levi.art_website/pages/portfolio.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icons/favicon-32x32.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="../assets/images/logo/levi-art-logo-orange.png" alt="Levi.art" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="portfolio.html" class="nav__link nav__link--active">Portfolio</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Portfolio Hero -->
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Portfolio Gallery</h1>
+                <p class="hero__subtitle">Custom Charcoal & Graphite Portraits</p>
+                <p class="hero__description">Explore our collection of soul-stirring artworks that capture life's most precious moments and emotions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Categories -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Portrait Categories</h2>
+                <p class="section__subtitle">Specializing in various types of custom portraits to suit every occasion and memory</p>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card" data-category="personal">
+                    <div class="service-card__icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="service-card__title">Personal Portraits</h3>
+                    <p class="service-card__description">Individual expressions captured with emotional depth and technical precision.</p>
+                </div>
+                
+                <div class="service-card" data-category="couples">
+                    <div class="service-card__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="service-card__title">Couples Portraits</h3>
+                    <p class="service-card__description">Celebrating love stories through intimate and meaningful artwork.</p>
+                </div>
+                
+                <div class="service-card" data-category="family">
+                    <div class="service-card__icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-card__title">Family Portraits</h3>
+                    <p class="service-card__description">Preserving family bonds and generational connections.</p>
+                </div>
+                
+                <div class="service-card" data-category="wedding">
+                    <div class="service-card__icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3 class="service-card__title">Wedding Portraits</h3>
+                    <p class="service-card__description">Commemorating the most special day of your life.</p>
+                </div>
+                
+                <div class="service-card" data-category="memorial">
+                    <div class="service-card__icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <h3 class="service-card__title">Memorial Portraits</h3>
+                    <p class="service-card__description">Honoring and preserving cherished memories of loved ones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio-section section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Featured Artworks</h2>
+                <p class="section__subtitle">Browse through our collection of custom portraits</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Works</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+                <button class="filter-btn" data-filter="couples">Couples</button>
+                <button class="filter-btn" data-filter="family">Family</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="memorial">Memorial</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Personal Portraits -->
+                <article class="portfolio-item" data-category="personal">
+                    <img src="../assets/images/portfolio/personal-1.jpg" alt="Personal Portrait Study" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Personal Portrait Study</h3>
+                        <p class="portfolio-item__description">Charcoal on paper - Individual expression captured</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A3</span>
+                            <span>2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="portfolio-item" data-category="personal">
+                    <img src="../assets/images/portfolio/personal-2.jpg" alt="Divine Coronation Series" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Divine Coronation Series</h3>
+                        <p class="portfolio-item__description">Current project - Spiritual and regal artistry</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A2</span>
+                            <span>2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Couples Portraits -->
+                <article class="portfolio-item" data-category="couples">
+                    <img src="../assets/images/portfolio/couples-1.jpg" alt="Eternal Bond" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Eternal Bond</h3>
+                        <p class="portfolio-item__description">Graphite portrait - Love story in grayscale</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A1</span>
+                            <span>2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="portfolio-item" data-category="couples">
+                    <img src="../assets/images/portfolio/couples-2.jpg" alt="Timeless Connection" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Timeless Connection</h3>
+                        <p class="portfolio-item__description">Charcoal and graphite blend</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A2</span>
+                            <span>2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Family Portraits -->
+                <article class="portfolio-item" data-category="family">
+                    <img src="../assets/images/portfolio/family-1.jpg" alt="Family Heritage" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Family Heritage</h3>
+                        <p class="portfolio-item__description">Mixed media - Generations united in art</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A1</span>
+                            <span>2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="portfolio-item" data-category="family">
+                    <img src="../assets/images/portfolio/family-2.jpg" alt="Generational Bonds" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Generational Bonds</h3>
+                        <p class="portfolio-item__description">Three-generation family portrait</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A0</span>
+                            <span>2023</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Wedding Portraits -->
+                <article class="portfolio-item" data-category="wedding">
+                    <img src="../assets/images/portfolio/wedding-1.jpg" alt="Wedding Bliss" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">Wedding Bliss</h3>
+                        <p class="portfolio-item__description">Charcoal masterpiece - Forever moment captured</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A1</span>
+                            <span>2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Memorial Portraits -->
+                <article class="portfolio-item" data-category="memorial">
+                    <img src="../assets/images/portfolio/memorial-1.jpg" alt="In Loving Memory" class="portfolio-item__image" loading="lazy">
+                    <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">In Loving Memory</h3>
+                        <p class="portfolio-item__description">Tribute portrait - Honoring cherished memories</p>
+                        <div class="portfolio-item__meta">
+                            <span>Size: A3</span>
+                            <span>2023</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Our Creative Process</h2>
+                <p class="section__subtitle">From concept to masterpiece - how we bring your vision to life</p>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <span class="step-number">1</span>
+                    </div>
+                    <h3 class="service-card__title">Consultation</h3>
+                    <p class="service-card__description">We discuss your vision, preferences, and the story you want to tell through the artwork.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <span class="step-number">2</span>
+                    </div>
+                    <h3 class="service-card__title">Reference Selection</h3>
+                    <p class="service-card__description">You provide reference photos and we work together to select the perfect composition.</p>
+                </div>
+                       
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <span class="step-number">3</span>
+                    </div>
+                    <h3 class="service-card__title">Creation</h3>
+                    <p class="service-card__description">Your portrait is meticulously crafted using high-quality charcoal and graphite materials.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <span class="step-number">4</span>
+                    </div>
+                    <h3 class="service-card__title">Final Review</h3>
+                    <p class="service-card__description">We share progress photos and make any final adjustments based on your feedback.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <span class="step-number">5</span>
+                    </div>
+                    <h3 class="service-card__title">Delivery</h3>
+                    <p class="service-card__description">Your finished masterpiece is carefully packaged and delivered to you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Inspired by Our Work?</h2>
+                <p class="cta__description">Let's create a custom portrait that tells your unique story</p>
+                <a href="contact.html" class="btn btn--primary btn--large">Commission Your Portrait</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">levi.art</h3>
+                    <p class="footer__text">We enjoy creating soul-stirring artworks that evoke emotion and preserve memories through timeless pencil artistry.</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Services</h3>
+                    <ul class="footer__list">
+                        <li><a href="portfolio.html" class="footer__link">Custom Portraits</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Art Classes</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Mentorship</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Exhibitions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="about.html" class="footer__link">About</a></li>
+                        <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer__link">Commission Art</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Connect</h3>
+                    <p class="footer__text">Follow our artistic journey</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/leviar.t/?next=%2F" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/levimulama.mulama" target="_blank" rel="noopener" class="footer__social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@leviart_" target="_blank" rel="noopener" class="footer__social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://x.com/_LeviArt_" target="_blank" rel="noopener" class="footer__social-link" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year">2025</span> levi.art | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/254705501237?text=Hi%20Levi%2C%20I%20just%20viewed%20your%20portfolio%20and%20I%27m%20interested%20in%20commissioning%20a%20portrait." 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/portfolio.js"></script>
+    
+    <style>
+        .portfolio-filters {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: none;
+            border: 2px solid var(--text-dark);
+            color: var(--text-dark);
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+            font-family: inherit;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .portfolio-item {
+            background: var(--bg-white);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .portfolio-item__image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover .portfolio-item__image {
+            transform: scale(1.05);
+        }
+
+        .portfolio-item__content {
+            padding: 1.5rem;
+        }
+
+        .portfolio-item__title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .portfolio-item__description {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-item__meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-filters {
+                justify-content: center;
+            }
+
+            .filter-btn {
+                font-size: 0.9rem;
+                padding: 0.4rem 1rem;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

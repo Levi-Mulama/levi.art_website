@@ -1,0 +1,19 @@
+# robots.txt for levi.art
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important resources
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://levi-mulama.github.io/levi.art_website/sitemap.xml
+
+# Crawl-delay (optional - be nice to servers)
+Crawl-delay: 1

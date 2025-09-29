@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Levi.art</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Return to levi.art homepage.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icons/favicon-32x32.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="../assets/images/logo/levi-art-logo-orange.png" alt="Levi.art" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="error-section">
+        <div class="container">
+            <div class="error-content">
+                <div class="error-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                
+                <h1 class="error-title">404</h1>
+                <h2 class="error-subtitle">Oops! This Canvas is Blank</h2>
+                <p class="error-description">The page you're looking for doesn't exist or has been moved. Let's get you back to something beautiful.</p>
+                
+                <div class="error-suggestions">
+                    <h3>Here's what you can do:</h3>
+                    <ul>
+                        <li><i class="fas fa-home"></i> Return to the <a href="../index.html">homepage</a></li>
+                        <li><i class="fas fa-images"></i> Browse our <a href="portfolio.html">portfolio</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="contact.html">Contact us</a> for assistance</li>
+                        <li><i class="fas fa-search"></i> Check the URL for typos</li>
+                    </ul>
+                </div>
+                
+                <div class="error-actions">
+                    <a href="../index.html" class="btn btn--primary">Go Home</a>
+                    <a href="portfolio.html" class="btn btn--secondary">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">levi.art</h3>
+                    <p class="footer__text">We enjoy creating soul-stirring artworks that evoke emotion and preserve memories through timeless pencil artistry.</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="../index.html" class="footer__link">Home</a></li>
+                        <li><a href="about.html" class="footer__link">About</a></li>
+                        <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Connect</h3>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/leviar.t/?next=%2F" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/levimulama.mulama" target="_blank" rel="noopener" class="footer__social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@leviart_" target="_blank" rel="noopener" class="footer__social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://x.com/_LeviArt_" target="_blank" rel="noopener" class="footer__social-link" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year">2025</span> levi.art | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    
+    <style>
+        .error-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+        
+        .error-content {
+            max-width: 600px;
+        }
+        
+        .error-icon {
+            font-size: 5rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .error-title {
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        
+        .error-subtitle {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+        
+        .error-description {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+        
+        .error-suggestions {
+            background: var(--bg-gray);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+            text-align: left;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .error-suggestions h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .error-suggestions ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .error-suggestions li {
+            padding: 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .error-suggestions li i {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+        
+        .error-suggestions a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .error-suggestions a:hover {
+            text-decoration: underline;
+        }
+        
+        .error-actions {
+            margin-top: 3rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 768px) {
+            .error-title {
+                font-size: 5rem;
+            }
+            
+            .error-subtitle {
+                font-size: 1.5rem;
+            }
+            
+            .error-suggestions {
+                padding: 1.5rem;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .error-actions .btn {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+    </style>
+</body>
+</html>

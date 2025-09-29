@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Levi.art | Commission Received</title>
+    <meta name="description" content="Thank you for your commission inquiry. We'll contact you within 24 hours to discuss your custom portrait project.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icons/favicon-32x32.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="../assets/images/logo/levi-art-logo-orange.png" alt="Levi.art" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="thank-you-section">
+        <div class="container">
+            <div class="thank-you-content">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                
+                <h1>Thank You for Your Commission Inquiry!</h1>
+                <p class="tagline">We've received your project details</p>
+                
+                <div class="next-steps">
+                    <h3>What Happens Next?</h3>
+                    <ol>
+                        <li><strong>Within 24 hours:</strong> We'll email you to confirm details and discuss your vision</li>
+                        <li><strong>Consultation:</strong> We'll schedule a call to understand your requirements</li>
+                        <li><strong>Quote & Timeline:</strong> You'll receive a detailed quote and completion timeline</li>
+                        <li><strong>Get Started:</strong> Once approved, we begin creating your masterpiece!</li>
+                    </ol>
+                </div>
+                
+                <p class="immediate-help"><strong>Need immediate assistance?</strong> WhatsApp us at <a href="https://wa.me/254705501237">+254 705 501 237</a></p>
+                
+                <div class="thank-you-actions">
+                    <a href="../index.html" class="btn btn--primary">Return Home</a>
+                    <a href="portfolio.html" class="btn btn--secondary">View Portfolio</a>
+                    <a href="contact.html" class="btn btn--secondary">New Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">levi.art</h3>
+                    <p class="footer__text">Thank you for choosing Levi.art for your custom portrait project!</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year">2025</span> levi.art | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    
+    <style>
+        .thank-you-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 80px;
+        }
+        
+        .thank-you-content {
+            max-width: 600px;
+        }
+        
+        .success-icon {
+            font-size: 5rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            animation: bounce 1s ease-in-out;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-10px);}
+            60% {transform: translateY(-5px);}
+        }
+        
+        .thank-you-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+        
+        .tagline {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+        
+        .next-steps {
+            background: var(--bg-gray);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+            text-align: left;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .next-steps h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .next-steps ol {
+            line-height: 1.8;
+            padding-left: 1.5rem;
+        }
+        
+        .next-steps li {
+            margin-bottom: 1rem;
+        }
+        
+        .immediate-help {
+            margin: 2rem 0;
+        }
+        
+        .immediate-help a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .immediate-help a:hover {
+            text-decoration: underline;
+        }
+        
+        .thank-you-actions {
+            margin-top: 3rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 768px) {
+            .thank-you-content h1 {
+                font-size: 2rem;
+            }
+            
+            .next-steps {
+                padding: 1.5rem;
+            }
+            
+            .thank-you-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .thank-you-actions .btn {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+    </style>
+</body>
+</html>

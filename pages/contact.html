@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Levi.art | Commission Custom Portraits & Art Classes</title>
+    <meta name="description" content="Contact Levi.art to commission custom charcoal and graphite portraits, inquire about art classes, or discuss creative projects. Professional art services in Nairobi, Kenya.">
+    <meta name="keywords" content="commission art, custom portraits, art classes, portrait pricing, contact artist, Nairobi artist">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact - Levi.art | Commission Custom Portraits">
+    <meta property="og:description" content="Get in touch to commission custom artwork or inquire about art services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://levi-mulama.github.io/levi.art_website/pages/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icons/favicon-32x32.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="../assets/images/logo/levi-art-logo-orange.png" alt="Levi.art" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Let's Create Together</h1>
+                <p class="hero__subtitle">Commission Your Custom Portrait</p>
+                <p class="hero__description">Ready to bring your vision to life? Get in touch to discuss your custom portrait, art classes, or creative project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section__title" style="text-align: left; margin-bottom: 2rem;">Get In Touch</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-item__details">
+                            <strong>Email</strong>
+                            <p>leviart9@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-item__details">
+                            <strong>Phone/WhatsApp</strong>
+                            <p>+254 705 501 237</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-item__details">
+                            <strong>Studio Location</strong>
+                            <p>Nairobi, Kenya</p>
+                            <small>Available for local and international commissions</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-item__details">
+                            <strong>Response Time</strong>
+                            <p>Within 24 hours</p>
+                            <small>We value your time and respond promptly</small>
+                        </div>
+                    </div>
+
+                    <!-- Weather Widget -->
+                    <div class="weather-widget">
+                        <h3>Nairobi Weather</h3>
+                        <div class="weather-content">
+                            <div id="weather-data">
+                                <div class="weather-display">
+                                    <i class="fas fa-sun weather-icon"></i>
+                                    <div class="weather-info">
+                                        <div class="weather-temp">Loading weather...</div>
+                                        <small>Current conditions for local clients</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="weather-note">
+                            <i class="fas fa-info-circle"></i> Perfect weather for portrait consultations!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2 class="section__title" style="text-align: left; margin-bottom: 2rem; color: var(--primary-color);">Commission Inquiry</h2>
+                    <form action="https://formspree.io/f/mnngjglb" method="POST" id="contact-form">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_next" value="thank-you.html">
+                        <input type="hidden" name="_subject" value="New Commission Inquiry - Levi.art">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+254 700 000 000">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interest *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="personal-portrait">Personal Portrait (1 Person)</option>
+                                    <option value="couple-portrait">Couple Portrait (2 People)</option>
+                                    <option value="family-portrait">Family Portrait (3+ People)</option>
+                                    <option value="wedding-portrait">Wedding Portrait</option>
+                                    <option value="memorial-portrait">Memorial Portrait</option>
+                                    <option value="art-classes">Art Classes</option>
+                                    <option value="mentorship">Art Mentorship</option>
+                                    <option value="exhibition">Exhibition Collaboration</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your vision, preferred size, timeline, or any specific requirements..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary" style="width: 100%;">Send Commission Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Portrait Pricing</h2>
+                <p class="section__subtitle">Transparent A-size based pricing • All artworks include professional framing</p>
+            </div>
+            
+            <!-- Rate Card Image -->
+            <div class="rate-card-image" style="text-align: center; margin-bottom: 3rem;">
+                <img src="../assets/images/portfolio/rate-card/levi-art-rate-card.png" 
+                    alt="Levi.art Rate Card - Portrait Pricing" 
+                    style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" loading="lazy">
+                <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                    <i class="fas fa-download"></i> 
+                    <a href="../assets/images/portfolio/rate-card/levi-art-rate-card.png" download="Levi-Art-Rate-Card.png" style="color: #ff5311; text-decoration: none;">
+                        Download Rate Card
+                    </a>
+                </p>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card">
+                    <h3 class="service-card__title">Quick Reference</h3>
+                    <div style="font-size: 2rem; font-weight: 700; color: var(--text-dark); margin: 1rem 0;">A-Size Based</div>
+                    <div style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Choose your preferred size</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A4:</strong> KSH 2,800</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A3:</strong> KSH 4,500</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A2:</strong> KSH 6,000 - 7,000</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A1:</strong> KSH 10,000 - 20,000</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A0:</strong> KSH 20,000 - 30,000</li>
+                        <li style="padding: 0.5rem 0; font-style: italic;">Prices vary by number of subjects</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3 class="service-card__title">What's Included</h3>
+                    <div style="font-size: 2rem; font-weight: 700; color: var(--text-dark); margin: 1rem 0;">Full Service</div>
+                    <div style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Professional experience</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">✓ Professional framing</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">✓ Protective packaging</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">✓ Free Nairobi delivery</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">✓ Worldwide shipping</li>
+                        <li style="padding: 0.5rem 0;">✓ Personal consultation</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3 class="service-card__title">Timeline Guide</h3>
+                    <div style="font-size: 2rem; font-weight: 700; color: var(--text-dark); margin: 1rem 0;">2-6 Weeks</div>
+                    <div style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Quality takes time</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A4-A3:</strong> 3-4 days</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A2:</strong> 1 week</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A1:</strong> 1-2 weeks</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>A0:</strong> 2-3 weeks</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;"><strong>Rush:</strong> Available (+fee)</li>
+                        <li style="padding: 0.5rem 0; font-style: italic;">Complex projects may vary</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <p class="section__subtitle">Common questions about commissioning artwork</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How long does a custom portrait take?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Typically 1-2 weeks depending on complexity, size, and current commission queue. Rush options may be available.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What photos do I need to provide?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>High-quality, well-lit photos with clear facial features. Multiple angles are helpful. We'll guide you through the selection process.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you ship internationally?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We ship worldwide with secure packaging and tracking. Shipping costs are calculated based on location.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I request changes during the process?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We share progress photos and welcome feedback at key stages to ensure complete satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">levi.art</h3>
+                    <p class="footer__text">We enjoy creating soul-stirring artworks that evoke emotion and preserve memories through timeless pencil artistry.</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Services</h3>
+                    <ul class="footer__list">
+                        <li><a href="portfolio.html" class="footer__link">Custom Portraits</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Art Classes</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Mentorship</a></li>
+                        <li><a href="../index.html#services" class="footer__link">Exhibitions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="about.html" class="footer__link">About</a></li>
+                        <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer__link">Commission Art</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Connect</h3>
+                    <p class="footer__text">Follow our artistic journey</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/leviar.t/?next=%2F" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/levimulama.mulama" target="_blank" rel="noopener" class="footer__social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@leviart_" target="_blank" rel="noopener" class="footer__social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://x.com/_LeviArt_" target="_blank" rel="noopener" class="footer__social-link" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year">2025</span> levi.art | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/254705501237?text=Hi%20Levi%2C%20I%27d%20like%20to%20inquire%20about%20commissioning%20a%20portrait." 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/contact.js"></script>
+    
+    <style>
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--bg-gray);
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+        }
+
+        .contact-item:hover {
+            transform: translateX(10px);
+            background: var(--bg-white);
+            box-shadow: var(--shadow-light);
+        }
+
+        .contact-item__icon {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-item__details strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            color: var(--text-dark);
+        }
+
+        .contact-item__details p {
+            margin: 0;
+            color: var(--text-light);
+        }
+
+        .contact-item__details small {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .weather-widget {
+            margin-top: 2rem;
+        }
+
+        .weather-widget h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .weather-content {
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .weather-display {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .weather-icon {
+            font-size: 2.5rem;
+            color: #ffa500;
+        }
+
+        .weather-temp {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .weather-note {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--bg-white);
+            margin-bottom: 1rem;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: var(--primary-dark);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 1.5rem;
+            max-height: 500px;
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        @media (max-width: 768px) {
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

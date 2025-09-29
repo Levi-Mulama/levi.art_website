@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Node modules (if you add any build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output (if you add build tools)
+dist/
+build/
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*-backup.*
+
+# Image editing files
+*.psd
+*.ai
+*.sketch
+
+# Compressed files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Private/sensitive files
+private/
+secrets/
+config/local.js
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
